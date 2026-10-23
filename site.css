@@ -713,3 +713,60 @@ details p {
     transition: none;
   }
 }
+
+/* Plot geometry: each bar's percentage uses the same 0?100% height as the axis. */
+.chart {
+  height: 220px;
+  margin-top: 40px;
+}
+.chart-grid {
+  inset: 0 0 auto 0;
+  height: 190px;
+  display: block;
+}
+.chart-grid span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+}
+.chart-grid span:nth-child(1) {
+  top: 0;
+}
+.chart-grid span:nth-child(2) {
+  top: 50%;
+}
+.chart-grid span:nth-child(3) {
+  top: 100%;
+}
+.chart-grid span:after {
+  top: 50%;
+}
+.bars {
+  height: 190px;
+}
+.bars > div {
+  display: block;
+  padding: 0;
+}
+.bars i {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: var(--value);
+}
+.bars b {
+  position: absolute;
+  bottom: calc(var(--value) + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  margin: 0;
+}
+.bars span {
+  top: calc(100% + 12px);
+  bottom: auto;
+  left: 50%;
+  transform: translateX(-50%);
+}

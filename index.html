@@ -1,6 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'"
+    />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#102E59" />
@@ -156,10 +160,10 @@
             >
               <div class="chart-grid"><span>100%</span><span>50%</span><span>0%</span></div>
               <div class="bars">
-                <div><b>82%</b><i style="--value: 82%"></i><span>Sep 8</span></div>
-                <div><b>87%</b><i style="--value: 87%"></i><span>Sep 15</span></div>
-                <div><b>91%</b><i style="--value: 91%"></i><span>Sep 22</span></div>
-                <div><b>96%</b><i style="--value: 96%"></i><span>Sep 29</span></div>
+                <div style="--value: 82%"><b>82%</b><i></i><span>Sep 8</span></div>
+                <div style="--value: 87%"><b>87%</b><i></i><span>Sep 15</span></div>
+                <div style="--value: 91%"><b>91%</b><i></i><span>Sep 22</span></div>
+                <div style="--value: 96%"><b>96%</b><i></i><span>Sep 29</span></div>
               </div>
             </div>
             <p class="fine">
