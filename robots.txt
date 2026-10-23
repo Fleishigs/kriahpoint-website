@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /portal/
+Sitemap: https://kriahpoint.com/sitemap.xml
