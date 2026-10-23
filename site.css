@@ -1,19 +1,31 @@
 @font-face {
   font-family: Rubik;
+  src: url('/brand/Rubik-400.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: Rubik;
+  src: url('/brand/Rubik-500.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: Rubik;
+  src: url('/brand/Rubik-600.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: Rubik;
   src: url('/brand/Rubik-700.ttf') format('truetype');
-  font-weight: 600 800;
+  font-weight: 700;
   font-display: swap;
 }
 @font-face {
   font-family: Rubik;
-  src: url('/brand/Rubik-400.ttf') format('truetype');
-  font-weight: 400;
-  font-display: swap;
-}
-@font-face {
-  font-family: Rubik;
-  src: url('/brand/Rubik-400.ttf') format('truetype');
-  font-weight: 400;
+  src: url('/brand/Rubik-800.ttf') format('truetype');
+  font-weight: 800;
   font-display: swap;
 }
 :root {
